@@ -22,7 +22,7 @@ void insertion_sort(int a[],int n)
 	for(i=0;i<n;i++)
 	{
 		temp = a[i];
-		for(j=i-1;j>=0&&temp<a[j];j++)
+		for(j=i-1;j>=0&&temp<a[j];j--)
 		{
 			a[j+1] = a[j];
 		}
